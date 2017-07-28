@@ -16,6 +16,7 @@ Variable        |Default  | Description
 apache_version  |`2.2.15` |The Apache version to install
 install_modperl |`true`   |Install ModPerl as well?
 modperl_version |`2.0.4`  |The ModPerl version to install
+apache_user     |`apache` |Create an apache user that can be configured for use in your httpd.conf
 
 Dependencies
 ------------
