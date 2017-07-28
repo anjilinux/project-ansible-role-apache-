@@ -1,5 +1,10 @@
 ---
 
+- name: Create a user for apache
+  user:
+    name: "{{ apache_user }}"
+    state: present
+
 - name: Install apache and mod_perl
   yum:
     name: "httpd-{{ apache_version }}"
